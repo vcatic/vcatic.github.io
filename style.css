@@ -12,7 +12,7 @@ body{
 
  .navBox {
     display: flex;
-    margin-left: 37%;
+    margin-left: 34%;
     margin-top: 2%;
 }
 
@@ -27,6 +27,7 @@ body{
  .nav a{
     text-decoration: none;
     color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
  }
 
@@ -40,7 +41,7 @@ body{
 
  .nav1 {
     margin-left: 4%;
-    border:2px solid  rgb(230, 201, 249) ;
+    border:2px solid   rgba(95, 145, 140, 0.926) ;
     padding: 0.5%;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.548);
     transition: ease 1s;
@@ -49,12 +50,13 @@ body{
  .nav1 a{
     text-decoration: none;
     color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
  }
 
  .nav1:hover{
     transform: scale(1.1);
-    background-color: rgb(230, 201, 249);
+    background-color: rgba(71, 110, 107, 0.926);
     
     
   
@@ -63,7 +65,7 @@ body{
 
  .nav2 {
     margin-left: 4%;
-    border:2px solid  rgb(230, 201, 249) ;
+    border:2px solid   rgba(73, 108, 133, 0.926) ;
     padding: 0.5%;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.548);
     transition: ease 1s;
@@ -72,12 +74,13 @@ body{
  .nav2 a{
     text-decoration: none;
     color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
  }
 
  .nav2:hover{
     transform: scale(1.1);
-    background-color: rgb(230, 201, 249);
+    background-color:  rgba(65, 95, 116, 0.926);
     
     
   
