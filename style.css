@@ -9,6 +9,16 @@ body{
     
     
  }
+
+
+ .body2{
+    background-image:linear-gradient(rgba(93, 109, 108, 0.268), rgba(71, 110, 107, 0.926)) ;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+ }
  
  h1{
      font-family:Verdana, Geneva, Tahoma, sans-serif;
