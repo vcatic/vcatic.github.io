@@ -1,0 +1,53 @@
+body{
+    background-image:linear-gradient(rgba(248, 221, 226, 0.2), rgba(252, 203, 211, 0.8)) ;
+   background-size: cover;
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+    
+    
+    
+ }
+ 
+ h1{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     margin-top: 2%;
+ }
+ 
+ 
+ 
+ 
+ .box {
+     display: flex;
+     margin-top: 12%;
+     margin-left: 10%;
+     
+ }
+ 
+ .bildBox{
+     opacity: 0.4;
+     margin: 1%;
+    
+ }
+ 
+ .bild{
+     margin-left: 1%;
+ }
+ 
+ #bild3{
+     width: 300px;
+     box-shadow: 3px 4px 3px 2px rgba(0, 0, 0, 0.433);
+ }
+ 
+ .buttons{
+     display: flex;
+     margin-left: 3%;
+     margin-top: 3%;
+    
+ }
+ 
+ .buttons div{
+     margin-left: 30%;
+ }
