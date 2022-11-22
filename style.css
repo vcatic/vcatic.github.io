@@ -19,6 +19,15 @@ body{
     background-attachment: fixed;
     
  }
+
+
+ .body3{
+    background-image:linear-gradient(rgba(109, 128, 141, 0.268), rgba(65, 95, 116, 0.926)) ;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
  
  h1{
      font-family:Verdana, Geneva, Tahoma, sans-serif;
