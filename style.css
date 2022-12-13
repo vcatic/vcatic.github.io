@@ -167,4 +167,17 @@ body{
    #bild3{
       width: 80%;
    }
+
+   .buttons div{
+      margin-left: 15%;
+   }
+
+   .buttons{
+      margin-left: 20%;
+   }
+   
+   .bildBox{
+      margin-left: 25%;
+   }
+
  }
