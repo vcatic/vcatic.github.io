@@ -147,3 +147,24 @@ body{
  .buttons div{
      margin-left: 30%;
  }
+
+ @media  screen  and (max-width: 600px) {
+
+   .navBox{
+      margin-left:12%;
+   }
+
+   .box{
+      margin-left: 13%;
+      display: block;
+   }
+   
+   .box img{
+      margin-left: 2%;
+      width: 50%;
+   }
+
+   #bild3{
+      width: 80%;
+   }
+ }
