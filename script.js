@@ -21,7 +21,7 @@ function projectSite(){
     <div id="prBox1"><p>Hier war die Aufgabe eine Weboberfläche zu entwickeln auf der man etwas customizen kann. Ich habe mich für einen Shoecustomizer entschieden. </p><div id="imgBox"><img src="./imgs/customize1.png"><img src="./imgs/customize2.png"></div></div></div>
     <div id="web"><h2>Design</h2><div id="prBox1"><p>Hier habe ich Figma genutzt um als Schulprojekt ein Design für unsere Schulnachhilfebörse ein Design zu erstellen</p><div id="imgBox"><img src="./imgs/figma1.png"><img src="./imgs/figma2.png"></div></div></div>
     <div id="web"><h2>Bilder</h2><div id="prBox1"><p>Ein paar meiner Bilder die ich gemacht und bearbeitet hab</p><div id="imgBox"><img src="./imgs/schwarzweiß.jpg"><img src="./imgs/Farbe.jpg"></div></div>
-    <div id="prBox1"><div id="imgBox"><img src="./imgs/DSC_0195.jpg"><img src="./imgs/DSC_0172.jpg"></div></div>`
+    <div id="prBox1"><div id="imgBox"><img src="./imgs/kuenstler.jpg"><img src="./imgs/DSC_0172.jpg"></div></div>`
 }
 
 
