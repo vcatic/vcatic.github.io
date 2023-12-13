@@ -1,183 +1,217 @@
-body{
-    background-image:linear-gradient(rgba(248, 221, 226, 0.268), rgba(232, 203, 252, 0.926)) ;
-   background-size: cover;
-   background-position: fixed;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   
-    
-    
-    
- }
+*{
+    margin: 0;
+}
 
- .navBox {
+body{
+   
+  
+   
+}
+
+header{
     display: flex;
-    margin-left: 34%;
+    background-color: rgba(222, 192, 255, 0.518);
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+  
+    
+}
+
+header div{
+    margin-left: 3%;
+   
+}
+
+
+
+#projects{
+    margin-left: 7%;
+    transition: ease 1s ;
+    text-align: center;
+    width: 10%;
+    padding: 1%;
+}
+
+#projects:hover{
+    transform: scale(1.1);
+    background-color: rgba(222, 192, 255, 0.684);
+}
+
+#infos{
+    margin-left: 8%;
+    text-align: center;
+    width: 10%;
+    padding: 1%;
+    transition: ease 1s ;
+}
+
+#infos:hover{
+    transform: scale(1.1);
+    background-color:  rgba(222, 192, 255, 0.684);
+}
+
+#mainSite{
+    transition: ease 1s ;
+    text-align: center;
+    width: 10%;
+    padding: 1%;
+}
+
+#mainSite:hover{
+    transform: scale(1.1);
+    background-color: rgba(222, 192, 255, 0.684);
+    
+}
+
+#body{
+    display: flex;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color:   rgba(222, 192, 255, 0.518);
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.156);
+}
+
+#body1{
+    display: flex;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px 1px  rgba(222, 192, 255, 0.518);
+}
+
+#box1{
+  
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 7px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+#box3{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 7px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#box2{
+   
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 7px;
+    
+}
+
+#box4{
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 7px;
+}
+
+#box2 img {
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 7px;
+    margin-left: 40%;
+    
+}
+#box4 img {
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 7px;
+    margin-left: 10%;
+    
+}
+
+
+h1{
+
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 2%;
     margin-top: 2%;
 }
 
-.nav {
-    margin-left: 4%;
-    border:2px solid  rgb(230, 201, 249) ;
-    padding: 0.5%;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.548);
-    transition: ease 1s;
- }
-
- .nav a{
-    text-decoration: none;
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
- }
-
- .nav:hover{
-    transform: scale(1.1);
-    background-color: rgb(230, 201, 249);
+h2{
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 400%;
+    font-weight: bold;
+    margin-left: 10.5%;
     
+}
+
+#text{
+    margin-left: 10.5%;
+}
+
+#text p{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h3{
+    font-size: 400%;
+    font-family: 'Kanit', sans-serif;
+    margin-top:2% ;
+}
+
+#web h2{
+    font-size: 200%;
+    font-family: 'Kanit', sans-serif;
     
-  
- }
+    margin-left: 8%;
+    margin-top: 4%;
+}
 
- .nav1 {
-    margin-left: 4%;
-    border:2px solid   rgba(95, 145, 140, 0.926) ;
-    padding: 0.5%;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.548);
-    transition: ease 1s;
- }
+#prBox1{
+    margin-top: 3%;
+    width: 90%;
+}
 
- .nav1 a{
-    text-decoration: none;
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
- }
-
- .nav1:hover{
-    transform: scale(1.1);
-    background-color: rgba(71, 110, 107, 0.926);
-    
-    
-  
- }
-
-
- .nav2 {
-    margin-left: 4%;
-    border:2px solid   rgba(73, 108, 133, 0.926) ;
-    padding: 0.5%;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.548);
-    transition: ease 1s;
- }
-
- .nav2 a{
-    text-decoration: none;
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
- }
-
- .nav2:hover{
-    transform: scale(1.1);
-    background-color:  rgba(65, 95, 116, 0.926);
-    
-    
-  
- }
- 
-
-
- .body2{
-    background-image:linear-gradient(rgba(93, 109, 108, 0.268), rgba(71, 110, 107, 0.926)) ;
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
- }
-
-
- .body3{
-    background-image:linear-gradient(rgba(109, 128, 141, 0.268), rgba(65, 95, 116, 0.926)) ;
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
- }
- 
- h1{
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
-     text-align: center;
-     margin-top: 2%;
- }
- 
- 
- 
- 
- .box {
-     display: flex;
-     margin-top: 8%;
-     margin-left: 10%;
-     
- }
- 
- .bildBox{
-     opacity: 0.4;
-     margin: 1%;
-    
- }
- 
- .bild{
-     margin-left: 1%;
- }
- 
- #bild3{
-     width: 300px;
-     box-shadow: 3px 4px 3px 2px rgba(0, 0, 0, 0.433);
- }
- 
- .buttons{
-     display: flex;
-     margin-left: 3%;
-     margin-top: 3%;
-    
- }
- 
- .buttons div{
-     margin-left: 30%;
- }
-
- @media  screen  and (max-width: 600px) {
-
-   .navBox{
-      margin-left:12%;
-   }
-
-   .box{
-      margin-left: 13%;
-      display: block;
-   }
+#imgBox{
    
-   .box img{
-      margin-left: 2%;
-      width: 50%;
-   }
+   margin-left: 4%;
+    display: flex;
+    padding: 2%;
+}
 
-   #bild3{
-      width: 80%;
-   }
+#imgBox img{
+ width: 50%;
+margin-left: 2%;
+ 
+}
 
-   .buttons div{
-      margin-left: 15%;
-   }
+#prBox1 p{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 8%;
+}
 
-   .buttons{
-      margin-left: 20%;
-   }
+#web{
+    width: 95%;
+    box-shadow: 1px 1px 1px 1px rgba(222, 192, 255, 0.518);
+    margin-top: 3%;
+    margin-left:3%;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+a:hover{
+    color: rgba(222, 192, 255, 0.663);
    
-   .bildBox{
-      margin-left: 25%;
-   }
-
- }
+}

@@ -2,40 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
 
-    <h1>Landschaften</h1>
-
-    <div class="navBox">
-        <div class="nav"><a href="index.html">Landschaften</a></div>
-        <div class="nav"><a href="unterseite_1.html">Architektur</a></div>
-        <div class="nav"><a href="unterseite_2.html">Winter</a></div>
-    </div>
-
-<div class="box">
-    <div class="bildBox" ><img src="img/landschaften1.jpeg" class="bild" id="bild1" width="200px"></div>
-
-    <div class="bildBox" ><img src="img/landschaften2.jpeg" class="bild" id="bild2" width="200px"></div>
-
-    <div ><img src="img/landschaften3.jpeg" class="bild" id="bild3" width="200px"></div>
+    <header>
+        <div id="mainSite" onclick="mainSite()">Hauptseite</div>
+        <div id="projects" onclick="projectSite()">Arbeiten</div>
+        <div id="infos" onclick="infoSite()">Infos</div>
+    </header>
     
-    <div class="bildBox"><img src="img/landschaften4.jpeg" class="bild" id="bild4" width="200px"></div>
+
+    <div id="content">
+
+    </div>
+
     
-    <div class="bildBox" ><img src="img/lanschaften5.jpeg" class="bild" id="bild5" width="200px"></div>
-</div>
-
-
-<div class="buttons">
-    <div class="buttonLeft" >
-        <img src="img/arrowLeft.png" onclick="left()">
-    </div>
-    <div class="buttonRight">
-        <img src="img/arrowRight.png" onclick="right ()">
-    </div>
-</div>    
+    
+</body>
+</html>
